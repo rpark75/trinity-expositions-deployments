@@ -1,25 +1,30 @@
 @echo off
 setlocal
 
+echo Trinity deployment script. Copyright Lunacite.
+
 :: Folder d'install
 cd /D "C:\dev\trinity-expositions-deployments\files"
 
-:: langages
+:: langages & packages
 :: python 3.8.10
 echo Deploying python...
 start /wait "" "python-3.8.10-amd64.exe" /quiet /simple
 
+echo Installing node...
+start /wait "" "node-v14.21.3-x64.msi" /quiet
+
 ::ylv
 echo Dezip ylv...
-set ZIPFILE="C:\dev\trinity-expositions-deployments\files\ylv.zip"
-set DESTDIR="C:\dev\trinity-expositions-deployments\"
+set "ZIPFILE=C:\dev\trinity-expositions-deployments\files\ylv.zip"
+set "DESTDIR=C:\dev\trinity-expositions-deployments"
 
 powershell -command "Expand-Archive -Path %ZIPFILE% -DestinationPath %DESTDIR%"
 
 :: Sources package
 echo Dezip trinity-ycar...
 set ZIPFILE="C:\dev\trinity-expositions-deployments\files\trinity-ycar.zip"
-set DESTDIR="C:\dev\trinity-expositions-deployments\"
+set DESTDIR="C:\dev\trinity-expositions-deployments"
 
 powershell -command "Expand-Archive -Path %ZIPFILE% -DestinationPath %DESTDIR%"
 
