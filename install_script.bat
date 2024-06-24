@@ -2,7 +2,7 @@
 setlocal
 
 :: Folder d'install
-cd /D "C:\dev\trinity-expositions-deployments"
+cd /D "C:\dev\trinity-expositions-deployments\files"
 
 :: langages
 :: python 3.8.10
