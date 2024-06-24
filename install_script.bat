@@ -5,13 +5,9 @@ setlocal
 cd /D "C:\dev\trinity-expositions-deployments"
 
 :: langages
-:: java
+:: java - plus besoin
 :: python 3.8.10
-msiexec /i "microsoft-jdk-11.0.23-windows-x64.msi" INSTALLDIR="C:\Java\OpenJDK" ADDLOCAL="FeatureMain,FeatureEnvironment" /quiet
 start /wait "" "python-3.8.10-amd64.exe" /quiet /simple
-
-set PATH=%PATH%;C:\Java\OpenJDK\bin
-setx PATH "%PATH%;C:\Java\OpenJDK\bin"
 
 :: apps
 :: git
@@ -33,7 +29,9 @@ npm install
 :: verif que soft java n'a pas besoin de lckcle
 
 :: start
-:: mvn
+:: mvn - plus besoin
 :: ng serve
 :: node backend/server.js
+
+:: yolo à dezip de ylv.zup
 
