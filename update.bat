@@ -1,3 +1,5 @@
+@echo off
+
 echo Updating Trinity app. Copyright Lunacite.
 cd "C:\dev\trinity-expositions-deployments\trinity-expositions-deployments\"
 

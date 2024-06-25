@@ -1,3 +1,5 @@
+@echo off
+
 echo Manually starting app. Copyright Lunacite.
 cd "C:\dev\trinity-expositions-deployments\trinity-expositions-deployments\"
 

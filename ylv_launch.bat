@@ -1,3 +1,5 @@
+@echo off
+
 echo Starting pattern interaction script. Copyright Lunacite.
 cd "C:\dev\trinity-expositions-deployments\yolov5"
 pip install -r requirements.txt 
