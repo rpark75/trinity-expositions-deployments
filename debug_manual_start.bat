@@ -28,3 +28,4 @@ echo Type and press enter: pip install websocket-client
 echo Type and press enter: python detect.py --weights yolov5n.pt --nosave --class 0 --source 1
 
 echo DEBUG IS OVER.
+pause
