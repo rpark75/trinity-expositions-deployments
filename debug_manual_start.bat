@@ -7,6 +7,10 @@ echo Stopping all processes...
 taskkill /IM python.exe /F -> skipped car pas de git follow.
 taskkill /IM node.exe /F
 
+echo ''
+echo ''
+echo /****** DEBUGGING STEPS STARTS HERE ******/
+
 echo DEBUG STEP 1
 echo Open a new terminal console (windows+R) 
 echo Type and press enter: cd "C:\dev\trinity-expositions-deployments\trinity-ycar\" 
@@ -14,6 +18,7 @@ echo Type and press enter: npm install -g @angular/cli@15.2.9
 echo Type and press enter: npm install
 echo Type and press enter (if necessary say no to any asked question): ng serve -o
 
+echo ''
 
 echo DEBUG STEP 2
 echo Open a new terminal console (windows+R) 
@@ -21,6 +26,7 @@ echo Type and press enter: cd "C:\dev\trinity-expositions-deployments\trinity-yc
 echo Type and press enter: npm install
 echo Type and press enter: node ./server.js
 
+echo ''
 
 echo DEBUG STEP 3
 echo Open a new terminal console (windows+R) 
