@@ -50,9 +50,7 @@ call npm install
 start cmd /k "cd /d %cd% && node ./server.js"
 
 :: launch ylv depuis dossier yolov5
-echo ylv launch...
-cd "C:\dev\trinity-expositions-deployments\yolov5"
-call python detect.py -weights yolov5n.pt --nosave --source 0
+echo ylv launch ready.
 
 echo Trinity Lunacite deployed.
 
