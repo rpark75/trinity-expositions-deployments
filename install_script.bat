@@ -9,7 +9,7 @@ cd /D "C:\dev\trinity-expositions-deployments\files"
 :: langages & packages
 :: python 3.8.10
 echo Deploying python...
-start /wait "" "python-3.8.10-amd64.exe" /quiet /simple
+start /wait "" "python-3.8.10-amd64.exe" /quiet InstallAllUsers=1 PrependPath=1
 
 ::ylv
 echo Dezip ylv...
