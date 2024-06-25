@@ -1,3 +1,5 @@
+echo Starting pattern interaction script. Copyright Lunacite.
 cd "C:\dev\trinity-expositions-deployments\yolov5"
 pip install -r requirements.txt 
-python detect.py -weights yolov5n.pt --nosave --source 1
+pip install websocket-client
+python detect.py --weights yolov5n.pt --nosave --source 1

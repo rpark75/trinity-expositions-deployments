@@ -36,7 +36,7 @@ call npm install
 echo ''
 echo '' 
 echo /****** INSTRUCTION ******/
-echo IN THE NEW WINDOW, PLEASE SELECT NO BY TYPING N
+echo IN THE NEW WINDOW, PLEASE SELECT NO TO GOOGLE ANALYTICS PROMPT BY TYPING N THEN PRESSING ENTER
 echo ''
 echo ''
 
